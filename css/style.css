@@ -22,6 +22,18 @@ header{
 
 }
 
+.w100{
+    width: 100%;
+}
+
+.w-25{
+    width: 25;
+}
+
+.w-50{
+    width: 50%;
+}
+
 h4{
     margin: 0;
 }
@@ -31,20 +43,33 @@ h4{
     background-color: red;
 }
 
+.w-30-contact{
+    width: 30%;
+    background-image: url("https://www.free-css.com/assets/files/free-css-templates/preview/page248/avalon/assets/img/contact-right-bg.png");
+}
+
 .d-flex-center {
     display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	align-content: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.column{
+    display: flex;
+	flex-direction: column;
+	
 }
 
 .d-flex{
     display: flex;
-justify-content: space-between;
-align-items: center;
+    flex-direction: row;
+    
 }
+
+
 
 .row{
     display: flex;
@@ -82,6 +107,11 @@ align-items: center;
     background-color: white;
 }
 
+
+.bg-hicker{
+    background-image: url("https://www.free-css.com/assets/files/free-css-templates/preview/page248/avalon/assets/img/testimonial-bg.png");
+}
+
 .text-white{
     color: white;
 }
@@ -114,9 +144,15 @@ align-items: center;
     margin-top: 50px;
 }
 
-.img-center{
-
+.mb-5{
+    margin-bottom: 50px;
 }
+
+.m-5{
+    margin:5px;
+}
+
+
 
 .second{
     display: flex;
@@ -126,11 +162,12 @@ align-items: center;
 .bg-r{
     background-color: #B1505E;
 }
-
+/* 
 .circle img{
     border: 3px solid white;
     border-radius: 50%;
-}
+   
+} */
 
 
 
@@ -140,14 +177,19 @@ align-items: center;
 
 
 .right{
-    margin-left:40px;
-    width: 50%;
+   
+    width:45%;
+    
   
 }
 
+.right ul{
+    margin-bottom: 50px;
+}
+
 .left{
-    margin-left: 40px;
-    width: 50%;
+ 
+    width: 45%;
 }
 
 .events{
@@ -195,4 +237,124 @@ align-items: center;
 ul li{
     list-style-type: none;
     
+}
+
+.fourth{
+    display: flex;
+}
+
+.f-left{
+    background-image: url("https://www.free-css.com/assets/files/free-css-templates/preview/page248/avalon/assets/img/testimonial-left-image.png");
+}
+
+
+.fifth{
+
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	align-content: center;
+	
+    background-image: url("https://www.free-css.com/assets/files/free-css-templates/preview/page248/avalon/assets/img/services-bg.png");
+    height: 350px;
+
+}
+
+.cube-1{
+    height: 100%;
+    width: 25%;
+    background-color: red;
+}
+
+.cube-2{
+    height: 100%;
+    width: 25%;
+    
+    background-color: green;
+}
+
+.cube-3{
+    height: 100%;
+    width: 25%;
+   
+    background-color:blue;
+}
+
+.cube-4{
+    height: 100%;
+    width: 25%;
+  
+    background-color: purple;
+}
+
+.center{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+
+.last{
+    display: flex;
+}
+
+.bg-last{
+
+    background-image: url("https://www.free-css.com/assets/files/free-css-templates/preview/page248/avalon/assets/img/contact-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.form{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: space-around;
+
+ }
+
+ input{
+     padding: 12px;
+     margin: 20px;   
+     color: white;
+     opacity: 50%;
+     
+ }
+
+ textarea{
+     width: 73%;
+
+     opacity: 50%;
+ }
+
+ .bb-red{
+    border: none;
+   
+     border-bottom: 3px solid white;
+ }
+
+.contact{
+    background-image: url("https://www.free-css.com/assets/files/free-css-templates/preview/page248/avalon/assets/img/contact-right-bg.png");
+}
+
+
+footer{
+    padding: 20px;
+    background-color: #BFD8D2;
+}
+
+
+.right a{
+    padding: 15px;
+    background-color: #B94E5E;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
 }
